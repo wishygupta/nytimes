@@ -36,9 +36,7 @@ data class ServerPopularBooks(
     @SerializedName("author")
     val author: String,
     @SerializedName("price")
-    val price: Double,
-    @SerializedName("primary_isbn10")
-    val isbn10: Int
+    val price: Double
 )
 
 fun ServerPopularBooks.toPopularBooks(): PopularBooks {

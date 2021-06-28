@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">NY Times API</string>
     <string name="api_key">LPtq21T3RIxdc5jYPatmfZbiVY4pmrxM</string>
+    <string name="bundle_arguement_book_id">book_id</string>
 </resources>
