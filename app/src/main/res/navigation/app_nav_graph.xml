@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/app_nav_graph"
+    app:startDestination="@id/bestSellerFragment">
+
+
+    <fragment
+        android:id="@+id/bestSellerFragment"
+        android:name="com.mine.nytimesapi.ui.bestselller.BestSellerFragment"
+        android:label="fragment_best_seller"
+        tools:layout="@layout/fragment_best_seller" >
+        <action
+            android:id="@+id/action_bestSellerFragment_to_booksFragment"
+            app:destination="@id/booksFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/booksFragment"
+        android:name="com.mine.nytimesapi.ui.BooksFragment"
+        android:label="fragment_books"
+        tools:layout="@layout/fragment_books" />
+</navigation>
